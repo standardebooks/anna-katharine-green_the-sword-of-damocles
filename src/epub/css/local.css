@@ -2,6 +2,14 @@
 @namespace epub "http://www.idpf.org/2007/ops";
 
 /* Centered dedications */
+[epub|type~="dedication"]{
+	font-variant: small-caps;
+}
+
+#dedication b{
+	text-transform: uppercase;
+}
+
 section[epub|type~="dedication"]{
 	text-align: center;
 }
