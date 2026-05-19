@@ -37,7 +37,6 @@ section[epub|type~="dedication"] > *{
 	-epub-hyphens: none;
 }
 
-/* [epub|type~="epigraph"] em, */
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -80,15 +79,10 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
-
-	/* section[epub|type~="epigraph"] > * + *{
-		margin-top: 3em;
-	} */
 }
 /* End full-page epigraphs */
 
 /* Epigraphs in section headers */
-/* article > header [epub|type~="epigraph"], */
 section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
@@ -96,13 +90,11 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-/* article > header [epub|type~="epigraph"] + *, */
 section > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
 }
 
 @supports(display: table){
-	/* article > header [epub|type~="epigraph"], */
 	section > header [epub|type~="epigraph"]{
 		display: table;
 	}
@@ -204,11 +196,6 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
-/* [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-} */
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
@@ -223,10 +210,6 @@ i [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
 }
 
-/* section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
-} */
 @media(max-width: 400px){
 	[epub|type~="z3998:drama"] td,
 	[epub|type~="z3998:drama"] td[epub|type~="z3998:persona"],
@@ -242,16 +225,6 @@ i [epub|type~="z3998:persona"]{
 		margin-top: 1.5em;
 	}
 
-	/* `together` rows get a pseudo-stage-direction. */
-	/* [epub|type~="z3998:drama"] tr.together td[epub|type~="z3998:persona"]::after{
-		content: " (Together.)";
-		font-style: italic;
-		font-variant: normal;
-	} */
-	/* [epub|type~="z3998:drama"] .together td:last-child{
-		border: none;
-		padding: 0;
-	} */
 	/* Rows that are only stage direction get a top margin. */
 	[epub|type~="z3998:drama"] td:first-child:not([epub|type]) + td{
 		margin-top: 1.5em;
