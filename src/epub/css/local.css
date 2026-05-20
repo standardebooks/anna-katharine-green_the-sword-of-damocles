@@ -87,6 +87,10 @@ section[epub|type~="epigraph"] > *{
 	section[epub|type~="epigraph"] > *{
 		margin: 0;
 	}
+
+	section[epub|type~="epigraph"] > * + *{
+		margin-top: 3em;
+	}
 }
 /* End full-page epigraphs */
 
