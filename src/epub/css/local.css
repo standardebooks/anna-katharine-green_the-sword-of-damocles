@@ -197,6 +197,7 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	font-style: normal;
 	hyphens: none;
 	-epub-hyphens: none;
 	text-align: right;
