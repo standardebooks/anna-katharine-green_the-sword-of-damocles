@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">https://standardebooks.org/ebooks/anna-katherine-green/the-sword-of-damocles</dc:identifier>
+		<dc:identifier id="uid">https://standardebooks.org/ebooks/anna-katharine-green/the-sword-of-damocles</dc:identifier>
 		<dc:date>1881-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
@@ -50,7 +50,7 @@
 		<dc:description id="description">A successful New York businessman, burdened with a dark secret in his past, is threatened with exposure and ruin.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Edward is a successful businessman and president of a bank, whose success was founded on a secret, for which he is haunted and guilt-ridden. When this secret threatens to undo the happiness and life of his nephew Bertram, he wrestles with how to keep his honor and accept the consequences of his past.&lt;/p&gt;
-			&lt;p&gt;The author, &lt;a href="https://standardebooks.org/ebooks/anna-katharine-green"&gt;Anna Katherine Green&lt;/a&gt;, is known as the “mother of the detective novel”:her first novel predates &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Cannon Doyle’s&lt;/a&gt; first &lt;a href="https://standardebooks.org/collections/sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt; novel by nearly a decade. Her detective stories have the classic elements of attention to clues, police procedure, and brilliant insight into human nature.&lt;/p&gt;
+			&lt;p&gt;The author, &lt;a href="https://standardebooks.org/ebooks/anna-katharine-green"&gt;Anna Katharine Green&lt;/a&gt;, is known as the “mother of the detective novel”:her first novel predates &lt;a href="https://standardebooks.org/ebooks/arthur-conan-doyle"&gt;Arthur Cannon Doyle’s&lt;/a&gt; first &lt;a href="https://standardebooks.org/collections/sherlock-holmes"&gt;Sherlock Holmes&lt;/a&gt; novel by nearly a decade. Her detective stories have the classic elements of attention to clues, police procedure, and brilliant insight into human nature.&lt;/p&gt;
 			&lt;p&gt;This is the third in the &lt;a href="https://standardebooks.org/collections/mr-gryce"&gt;Detective Gryce&lt;/a&gt; series, which totals thirteen novels. However, in this story, Detective Gryce plays a minor role and is not involved with the central mystery. Instead, this novel focuses on themes of guilt, repentance, redemption, mercy, and, of course, the love interests of the main characters.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
@@ -58,10 +58,10 @@
 		<dc:source>https://archive.org/details/swordofdamocless00greeiala</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/anna-katherine-green_the-sword-of-damocles</meta>
-		<dc:creator id="author">Anna Katherine Green</dc:creator>
-		<meta property="file-as" refines="#author">Green, Anna Katherine</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anna_Katherine_Green</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/anna-katharine-green_the-sword-of-damocles</meta>
+		<dc:creator id="author">Anna Katharine Green</dc:creator>
+		<meta property="file-as" refines="#author">Green, Anna Katharine</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Anna_Katharine_Green</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n50046883</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
