@@ -48,7 +48,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Mr. Gryce</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">3</meta>
-		<dc:abstract>A successful New York businessman, burdened with a dark secret in his past, is threatened with exposure and ruin.</dc:abstract>
+		<meta property="schema:abstract">A successful New York businessman, burdened with a dark secret in his past, is threatened with exposure and ruin.</meta>
 		<dc:description>
 			&lt;p&gt;Edward is a successful businessman and president of a bank—but his success is founded on a secret that leaves him haunted and guilt-ridden. When the exposure of this secret threatens to undo the life of his nephew Bertram, he wrestles with how to maintain his honor while accepting the consequences of his past decisions.&lt;/p&gt;
 			&lt;p&gt;This is the third in &lt;a href="https://standardebooks.org/ebooks/anna-katharine-green"&gt;Anna Katharine Green’s&lt;/a&gt; &lt;a href="https://standardebooks.org/collections/mr-gryce"&gt;Detective Gryce&lt;/a&gt; series, but in this story, Detective Gryce plays a minor role and isn’t involved in the central mystery. Instead, the novel focuses on themes of guilt, repentance, redemption, mercy, and, of course, the main characters’ love interests.&lt;/p&gt;
